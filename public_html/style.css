@@ -1,0 +1,31 @@
+@charset "utf-8";
+.isadmin
+{
+	background-color: #000;
+	border-bottom: 2px solid #FF0;
+	padding: 10px 5px;
+	color: #fff;
+	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
+	position:fixed;
+	width:100%;
+	top:0px
+}
+
+.underadmin
+{
+	background-color: #000;
+	height: 29px;
+}
+
+.isadmin a
+{	
+	color: #FF0;
+	text-decoration: none;
+	margin: 0px 10px;	
+}
+
+body
+{
+	margin-top:0px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="<php:template>style.css">
+<script type="text/javascript" src="<php:template>jquery-1.11.1.js"></script>
+<!-- arcticModal -->
+<script src="<php:template>js/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+<php:editorjs>
+<link rel="stylesheet" href="<php:template>js/arcticmodal/jquery.arcticmodal-0.3.css">
+<!-- arcticModal theme -->
+<link rel="stylesheet" href="<php:template>js/arcticmodal/themes/simple.css">
+<php:css>
+<title>Кудо MMA</title>
+
+</head>
+<body>
+<div class="bkg">
+<div class="g-hidden">
+						<div class="box-modal" id="exampleModal1">
+							<div class="box-modal_close arcticmodal-close">закрыть</div>
+                            <div style="width: 500px; height: 500px; margin-top:5px;">
+							<!--<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=GJJ9ua0tYtDl6qUB6n8MEyeCSMu7Xj-h&width=500&height=500"></script>-->
+						</div>
+                        </div>
+					</div>
+<table width="100%" class="mframe" height="100%" cellpadding="1" cellspacing="1">
+<tr>
+<td>
+</td>
+<td class="logo">
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="text" colspan="3">
+<p><center><h2>Главный тренер:</h2></p>
+<php:1>
+<p><center><h2>Контакты:</h2></center></p>
+<php:2>
+
+</td>
+</tr>
+<tr>
+<td class="footer" colspan="3">
+<center>
+Сайт нахрдится в разработке.<br />
+2014 &copy; "Восходящее Солнце"
+</center>
+</td>
+</tr>
+</table>
+</div>
+
+
+<script type="text/javascript">
+function setHeiHeight() {
+    $('.bkg').css({
+        height: $(window).height() + 'px'
+    });
+}
+setHeiHeight(); // устанавливаем высоту окна при первой загрузке страницы
+$(window).resize( setHeiHeight ); // обновляем при изменении размеров окна
+</script>
+
+
+</body>
+</html>

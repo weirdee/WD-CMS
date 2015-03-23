@@ -1,0 +1,86 @@
+@charset "windows-1251";
+/* CSS Document */
+
+html
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.bkg
+{
+	width: 100%;
+	min-height: 500px;
+	padding: 0;
+	margin: 0;
+background:#fff url(img/bkgn.jpg) no-repeat center center;/* указываем фоновое изображение(параметр url(bg.jpg)), которое будет растягиваться, центрируем его по горизонтале(параметр center) и вертикале(параметр center) и фиксируем его положение(параметр fixed)*/
+-moz-background-size:cover; /* растягиваю изображение по размерам окна для браузера Firefox 3.6 */
+-o-background-size:102% auto; /* растягиваю изображение по размерам окна для браузера Opera 9.5 */
+-webkit-background-size:102% auto; /* растягиваю изображение по размерам окна для браузера Safari 3.0 */
+-khtml-background-size:cover; /* растягиваю изображение по размерам окна для браузера Konqueror 3.5.4 */
+background-size:cover; /* растягиваю изображение по размерам окна для всех браузеров поддерживающих технологию CSS3 */
+}
+
+.mframe
+{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.logo
+{
+	background:url(img/logotop.png);
+	height: 202px;
+	width: 285px;
+}
+
+.text
+{
+	vertical-align: top;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #fff;
+}
+
+.text a
+{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.text a:hover
+{
+	color:#F30;
+}
+
+.text h2
+{
+	font-size: 18px;
+	font-weight:normal;
+}
+
+.text h1
+{
+	font-size: 22px;
+	font-weight:normal;
+}
+
+.footer
+{
+	height: 50px;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #fff;
+}
+
+.g-hidden
+{
+	display: none;
+}
